@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#AE3535"
+    android:id="@+id/watched_customlayout"
+    android:layout_height="500dp">
+ <TextView
+     android:id="@+id/addcomment_textView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@color/white"
+     android:layout_marginTop="-0dp"
+     android:text="Add Comment"
+     />
+
+    <EditText
+        android:id="@+id/addComment_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        />
+<TextView
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="-30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:outlineSpotShadowColor="@color/white"
+    android:text="Rating"/>
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:theme="@style/RatingBar"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitButton"
+        android:backgroundTint="#000000"
+        app:cornerRadius="5dp"
+        android:textColor="#fff"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Submit"
+          />
+
+
+
+
+
+
+</LinearLayout>

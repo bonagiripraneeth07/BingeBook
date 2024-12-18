@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AE3535"
+            app:title=""
+
+            />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <ImageView
+        android:id="@+id/tool_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bingeboklogomain"
+        android:visibility="visible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:textSize="23dp"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#C1BEBE"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_height="1dp"></LinearLayout>
+
+</RelativeLayout>

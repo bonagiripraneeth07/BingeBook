@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/item_nav_search"
+        android:title="Search"
+        android:icon="@drawable/searchicon"/>
+    <item android:id="@+id/item_nav_watchbucket"
+        android:title="WatchBucket"
+        android:icon="@drawable/watchbucket"/>
+
+
+
+</menu>
